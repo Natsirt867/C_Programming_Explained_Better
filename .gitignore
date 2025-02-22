@@ -1,0 +1,17 @@
+# Ignore all bin/ and obj/ directories recursively directories
+bin/
+*/bin/
+obj/
+*/obj/
+
+# Ignore object files
+*.o
+
+# Allowed files
+!*.c
+!*.h
+!Makefile
+
+# Ignore editor files
+*.swp
+*.swo
