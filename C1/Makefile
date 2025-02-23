@@ -13,5 +13,3 @@ hello: $(OBJS)
 %.o: %.c
 	$(CC) $(CFLAGS) -c hello.c -o hello.o
 
-clean:
-	$(RM) -r hello *.o *.dSYM 
