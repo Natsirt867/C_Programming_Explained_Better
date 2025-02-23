@@ -1,4 +1,4 @@
-# Ignore all bin/ and obj/ directories recursively directories
+# Ignore all bin/ and obj/ directories recursively
 bin/
 */bin/
 obj/
